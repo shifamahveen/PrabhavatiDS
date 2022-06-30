@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Estonia&family=Poppins:wght@200;400&family=Ubuntu&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: .7px;
+}
+html {
+	scroll-behavior: smooth;
+}
+.stories{
+    background-color: #f14f7b;
+    padding: 20px 50px 50px 50px;
+}
+.title{
+    font-size: 3.5rem;
+    letter-spacing: 1.5px;
+}
+.stories h1{
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 5px;
+}
+.stories p{
+    color: #d0d0d0;
+    text-align: center;
+    font-size: 22px;
+    margin: 20px;
+}
+.stories .cards{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.stories .cards .card{
+    background-color: white;
+    padding: 15px;
+    width: 270px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    border: solid 1px #8e8e8e;
+}
+.stories .cards .card img{
+    size: cover;
+    display: block;
+    margin: auto;
+}
+.stories .cards .card h3{
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: #f14f7b;
+}
+.stories .cards .card h5{
+    font-size: 15px;
+    text-align: center;
+    color: #8e8e8e;
+}
+
+@media (max-width:500px){
+    .stories{
+        padding: 20px;
+    }
+    .title{
+        font-size: 2.5rem;
+    }
+    .stories p{
+        font-size: 16px;
+    }
+    .stories .cards .card{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:1200px){
+    .stories .cards .card{
+        margin-bottom: 30px;
+    }
+}
