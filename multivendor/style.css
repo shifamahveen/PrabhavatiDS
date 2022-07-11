@@ -1,0 +1,27 @@
+.second{
+  background-color: #f8f9fa;
+}
+
+.carousel .carousel-item img{
+  height: 100vh!important;
+}
+
+.navbar-nav li{
+  padding-top: 10px!important;
+}
+.navbar-nav li img{
+  margin-top: 5px!important;
+}
+.carousel-caption{
+  position: absolute!important;
+}
+
+@media (max-width:500px){
+  button .collapsed{
+    visibility: hidden!important;
+  }
+
+  .carousel .carousel-item img{
+    height: 40vh!important;
+  }
+}
